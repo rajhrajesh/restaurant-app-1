@@ -1,0 +1,101 @@
+.dish-item-container {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.dish-item-container:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.veg-border {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #28a745;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.non-veg-border {
+  border-color: #dc3545;
+}
+
+.veg-round, .non-veg-round {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.veg-round {
+  background-color: #28a745;
+}
+
+.non-veg-round {
+  background-color: #dc3545;
+}
+
+.dish-details-container {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.dish-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.dish-currency-price, .dish-description {
+  margin: 0;
+}
+
+.not-availability-text {
+  font-weight: bold;
+}
+
+.addon-availability-text {
+  color: #6c757d;
+}
+
+.dish-calories {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.dish-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.controller-container {
+  display: flex;
+  align-items: center;
+  background-color: #28a745;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.quantity {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 10px;
+}

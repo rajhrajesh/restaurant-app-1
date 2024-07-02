@@ -1,0 +1,37 @@
+.home-background {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.tab-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.each-tab-item {
+  margin: 5px;
+}
+
+.tab-category-button {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.active-tab-item .tab-category-button {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
